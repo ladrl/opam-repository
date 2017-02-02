@@ -14,7 +14,7 @@ available: [ ocaml-version >= "4.01.0" ]
 patches: [
   "non-portable-sed-option.diff"
 ]
-dev-repo: "git://github.com/OCamlPro/ocp-ocamlres"
+dev-repo: "https://github.com/OCamlPro/ocp-ocamlres"
 install: [
   [make "BINDIR=%{bin}%" "LIBDIR=%{lib}%" "install"]
   [make "DOCDIR=%{doc}%" "install-doc"]
